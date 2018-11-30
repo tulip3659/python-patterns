@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import unittest
 from creational.abstract_factory import PetShop, Dog
-
 try:
     from unittest.mock import patch
 except ImportError:
