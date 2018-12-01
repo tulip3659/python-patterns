@@ -1,5 +1,6 @@
 """
 This practice shows how class attribute is created and its namespace is different from instance attribute
+more details are here: https://www.toptal.com/python/python-class-attributes-an-overly-thorough-guide
 """
 
 class Test_Class(object):
