@@ -26,3 +26,13 @@ if __name__ == "__main__":
     print('class_attribute' in Test_Class.__dict__) # True because it's a class attribute
 
     print("So far, so good!")
+
+# expected results:
+
+# instance 1 has a class attribute of 1
+# instance 1 has an instance attribute of 2
+# instance 2 has a class attribute of 1
+# instance 2 has an instance attribute of 3
+# False
+# True
+# So far, so good!
