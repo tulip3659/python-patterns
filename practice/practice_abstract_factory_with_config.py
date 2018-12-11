@@ -33,3 +33,9 @@ if __name__ == "__main__":
     config_dict = dict(Algorithm = "SAC", Type = "On policy")
     test = Abstract_factory(config_dict)
     print(test.train())
+
+# Output:
+# Abstract factory created for a TRPO algorithm.
+# TRPO trained !
+# Abstract factory created for a SAC algorithm.
+# SAC trained !
