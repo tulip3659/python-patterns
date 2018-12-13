@@ -6,6 +6,7 @@ https://dbader.org/blog/queues-in-python
 
 import queue
 
+<<<<<<< HEAD
 # q = queue.Queue()
 #
 # q.put("Babak")
@@ -35,3 +36,13 @@ print(qq.qsize())
 print(qq.get())
 print(qq.qsize())
 
+=======
+q = queue.Queue()
+
+q.put("Babak")
+q.put(60)
+
+for _ in range(5):
+    # It doesn't raise exception Empty in python 3.5
+    print(q.get())
+>>>>>>> 46ba74803a29fcd4963a562b3828908dacda63f5
