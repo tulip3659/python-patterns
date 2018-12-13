@@ -35,3 +35,12 @@ print(qq.qsize())
 print(qq.get())
 print(qq.qsize())
 
+=======
+q = queue.Queue()
+
+q.put("Babak")
+q.put(60)
+
+for _ in range(5):
+    # It doesn't raise exception Empty in python 3.5
+    print(q.get())
